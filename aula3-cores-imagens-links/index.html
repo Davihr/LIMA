@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores, Imagens e Links</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cores, Imagens e Links</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Formatos de Cor no CSS</h2>
+        <h3 style="color: #ff5733">Título com cor em Hexadecimal</h3>
+        <h3 style="color: rgb(0, 128, 255)">Título com cor em RGB</h3>
+        <h3 style="color: rgba(0, 128, 0, 0)">Título com cor em RGBA</h3>
+      </section>
+      <hr>
+      <section>
+        <p style="color: blue">Texto em uma cor específica!</p>
+        <p style="background-color: rgb(0, 0, 0); color: yellow">
+          Fundo do texto em uma cor específica!
+        </p>
+      </section>
+      <section>
+        <img src="assets/fundo.png" alt="Teste" title="Teste" width="1000px">
+        <hr>
+      </section>
+      <section>
+        <!--Imagem como background-->
+        <div
+          style="
+            border: 1px solid red;
+            width: 500px;
+            height: 500px;
+            color: red;
+            text-align: center;
+            background-image: url(&quot;assets/imagem.png&quot;);
+            background-repeat: no-repeat;
+            background-size: 200px 200px;
+            background-position: 50px 10px;
+          "
+        >
+          <h2>Imagem como background</h2>
+          <p>Esta seção tem uma imagem de fundo</p>
+        </div>
+        <hr>
+      </section>
+      <section>
+        <h1>Vídeos em HTML</h1>
+        <video src="video.mp4" controls autoplay Loop width="560" height="315">Seu navegador não suporta o elemento de vídeo</video>
+        <hr>
+      </section>
+      <section>
+        <h1>Vídeos Externos</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/t2Q-9UUjpKI?si=kOWCQaTtrkq0KtUf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1790003287493!6m8!1m7!1sDBAlUj6kzFBC_zXTcF8FYA!2m2!1d-21.48400414218154!2d-47.0078107841302!3f211.00546548514106!4f-31.934521878019098!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </section>
+    </main>
+  </body>
+</html>
