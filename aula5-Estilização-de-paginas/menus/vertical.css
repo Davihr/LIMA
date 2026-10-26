@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none; /* remove as bolinhas da lista */
+    padding: 0; /* remove o espaçamento interno */
+    margin: 0; /* remove o espaçamento externo */
+    background-color: #333; /* coloca o fundo cinza escuro */
+    width: 20%;
+}
+li {
+    float: center; /* deixa os elementos alinhados à esquerda, um ao lado do outro */
+}
+a {
+    display: block; /* faz o link ocupar todo o espaço disponível do item */
+    color: white; /* deixa a cor do texto branca */
+    padding: 13px 22px; /* adiciona espaçamento interno: 14px em cima e embaixo, 20px nas laterais */
+    text-decoration: none; /* remove o sublinhado do link */
+}
+a:hover {
+    background-color: white; /* muda o fundo para branco ao passar o mouse */
+    color: black; /* muda a cor do texto para preto ao passar o mouse */
+}
